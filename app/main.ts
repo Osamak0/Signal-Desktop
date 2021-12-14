@@ -465,7 +465,7 @@ async function createWindow() {
       contextIsolation: false,
       preload: join(
         __dirname,
-        enableCI || getEnvironment() === Environment.Production
+        enableCI || getEnvironment() === Environment.Staging
           ? '../preload.bundle.js'
           : '../preload.js'
       ),

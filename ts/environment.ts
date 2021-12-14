@@ -19,7 +19,7 @@ export function getEnvironment(): Environment {
     // This should never happen—we should always have initialized the environment by this
     //   point. It'd be nice to log here but the logger depends on the environment and we
     //   can't have circular dependencies.
-    return Environment.Production;
+    return Environment.Staging;
   }
   return environment;
 }

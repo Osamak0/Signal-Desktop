@@ -63,7 +63,7 @@ jobs:
     - run: yarn test-electron
     - run: yarn grunt test-release:osx
       env:
-        NODE_ENV: production
+        NODE_ENV: staging
 
   linux:
     needs: lint
@@ -99,7 +99,7 @@ jobs:
         LANGUAGE: en_US
     - run: xvfb-run --auto-servernum yarn grunt test-release:linux
       env:
-        NODE_ENV: production
+        NODE_ENV: staging
 
   windows:
     needs: lint
@@ -130,10 +130,9 @@ jobs:
     - run: yarn test-node
     - run: copy package.json temp.json
     - run: del package.json
-    - run: type temp.json | findstr /v certificateSubjectName | findstr /v certificateSha1 > package.json
     - run: yarn prepare-beta-build
     - run: yarn build
     - run: node build\grunt.js test
     - run: node build\grunt.js test-release:win
       env:
-        SIGNAL_ENV: production
+        SIGNAL_ENV: staging

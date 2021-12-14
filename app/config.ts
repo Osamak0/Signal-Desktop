@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 
 import { join } from 'path';
-import { app } from 'electron';
 
 import type { IConfig } from 'config';
 
@@ -10,15 +9,11 @@ import {
   Environment,
   getEnvironment,
   setEnvironment,
-  parseEnvironment,
 } from '../ts/environment';
 
 // In production mode, NODE_ENV cannot be customized by the user
-if (app.isPackaged) {
-  setEnvironment(Environment.Production);
-} else {
-  setEnvironment(parseEnvironment(process.env.NODE_ENV || 'development'));
-}
+setEnvironment(Environment.Staging);
+
 
 // Set environment vars to configure node-config before requiring it
 process.env.NODE_ENV = getEnvironment();

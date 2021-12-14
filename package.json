@@ -1,6 +1,6 @@
 {
   "name": "signal-desktop",
-  "productName": "Signal",
+  "productName": "Peepline",
   "description": "Private messaging from your desktop",
   "desktopName": "signal.desktop",
   "repository": "https://github.com/signalapp/Signal-Desktop.git",
@@ -56,12 +56,12 @@
     "build:grunt": "yarn grunt",
     "build:typed-scss": "tsm sticker-creator",
     "build:webpack": "run-p build:webpack:sticker-creator build:webpack:preload build:webpack:sql-worker build:webpack:heic-worker",
-    "build:webpack:sticker-creator": "cross-env NODE_ENV=production webpack",
-    "build:webpack:preload": "cross-env NODE_ENV=production webpack -c webpack-preload.config.ts",
-    "build:webpack:sql-worker": "cross-env NODE_ENV=production webpack -c webpack-sql-worker.config.ts",
-    "build:webpack:heic-worker": "cross-env NODE_ENV=production webpack -c webpack-heic-worker.config.ts",
-    "build:electron": "electron-builder --config.extraMetadata.environment=$SIGNAL_ENV",
-    "build:release": "cross-env SIGNAL_ENV=production yarn build:electron -- --config.directories.output=release",
+    "build:webpack:sticker-creator": "cross-env NODE_ENV=staging webpack",
+    "build:webpack:preload": "cross-env NODE_ENV=staging webpack -c webpack-preload.config.ts",
+    "build:webpack:sql-worker": "cross-env NODE_ENV=staging webpack -c webpack-sql-worker.config.ts",
+    "build:webpack:heic-worker": "cross-env NODE_ENV=staging webpack -c webpack-heic-worker.config.ts",
+    "build:electron": "electron-builder --config.extraMetadata.environment=staging",
+    "build:release": "cross-env SIGNAL_ENV=staging yarn build:electron -- --config.directories.output=release",
     "build:fuses": "node scripts/fuse-electron.js",
     "build:fuses:release": "node scripts/fuse-electron.js --release",
     "build:zip": "node scripts/zip-macos-release.js",
@@ -87,6 +87,7 @@
     "blob-util": "2.0.2",
     "blueimp-load-image": "5.14.0",
     "blurhash": "1.1.3",
+    "canvas": "^2.8.0",
     "classnames": "2.2.5",
     "config": "1.28.1",
     "copy-text-to-clipboard": "2.1.0",
@@ -300,10 +301,10 @@
     "sharp/color/color-string": "1.5.5"
   },
   "engines": {
-    "node": "16.5.0"
+    "node": "16.13.1"
   },
   "build": {
-    "appId": "org.whispersystems.signal-desktop",
+    "appId": "org.peepline.signal",
     "mac": {
       "asarUnpack": [
         "**/*.node"
@@ -333,8 +334,6 @@
         "node_modules/sharp"
       ],
       "artifactName": "${name}-win-${version}.${ext}",
-      "certificateSubjectName": "Signal Messenger, LLC",
-      "certificateSha1": "8C9A0B5C852EC703D83EF7BFBCEB54B796073759",
       "signingHashAlgorithms": [
         "sha256"
       ],
@@ -392,8 +391,8 @@
     "files": [
       "package.json",
       "config/default.json",
-      "config/${env.SIGNAL_ENV}.json",
-      "config/local-${env.SIGNAL_ENV}.json",
+      "config/staging.json",
+      "config/local-staging.json",
       "background.html",
       "about.html",
       "screenShare.html",

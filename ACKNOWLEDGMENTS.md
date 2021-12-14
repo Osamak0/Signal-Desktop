@@ -775,6 +775,10 @@ Signal Desktop makes use of the following open source projects.
 
     License: MIT
 
+## canvas
+
+    License: MIT
+
 ## classnames
 
     The MIT License (MIT)
