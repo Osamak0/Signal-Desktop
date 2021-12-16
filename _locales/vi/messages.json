@@ -72,7 +72,7 @@
         "description": "Application menu command to show all application windows"
     },
     "appMenuQuit": {
-        "message": "Thoát Signal",
+        "message": "Thoát Peepline",
         "description": "Application menu command to close the application"
     },
     "editMenuUndo": {
@@ -184,7 +184,7 @@
         "description": "One of the menu options available in the Avatar popup menu"
     },
     "avatarMenuUpdateAvailable": {
-        "message": "Cập nhật Signal",
+        "message": "Cập nhật Peepline",
         "description": "One of the menu options available in the Avatar popup menu"
     },
     "loading": {
@@ -258,7 +258,7 @@
         "description": "Header shown on the first screen in the data import process"
     },
     "loadDataDescription": {
-        "message": "Bạn vừa hoàn thành quá trình xuất dữ liệu, các liên hệ và tin nhắn của bạn vẫn còn trên máy tính của bạn. Hãy chọn thư mục dữ liệu Signal đã lưu của bạn.",
+        "message": "Bạn vừa hoàn thành quá trình xuất dữ liệu, các liên hệ và tin nhắn của bạn vẫn còn trên máy tính của bạn. Hãy chọn thư mục dữ liệu Peepline đã lưu của bạn.",
         "description": "Introduction to the process of importing messages and contacts from disk"
     },
     "importChooserTitle": {
@@ -274,7 +274,7 @@
         "description": "Header of screen shown as data is import"
     },
     "importErrorFirst": {
-        "message": "Hãy đảm bảo bạn đã chọn đúng thư mục chứa dữ liệu Signal đã lưu. Tên của thư mục phải bắt đầu bằng 'Signal Export'. Bạn có thể lưu một bản sao mới của dữ liệu từ ứng dụng Chrome.",
+        "message": "Hãy đảm bảo bạn đã chọn đúng thư mục chứa dữ liệu Peepline đã lưu. Tên của thư mục phải bắt đầu bằng 'Peepline Export'. Bạn có thể lưu một bản sao mới của dữ liệu từ ứng dụng Chrome.",
         "description": "Message shown if the import went wrong; first paragraph"
     },
     "importErrorSecond": {
@@ -290,7 +290,7 @@
         "description": "Header shown on the screen at the end of a successful import process"
     },
     "importCompleteStartButton": {
-        "message": "Bắt đầu sử dụng Signal Desktop",
+        "message": "Bắt đầu sử dụng Peepline Desktop",
         "description": "Button shown at end of successful import process, nothing left but a restart"
     },
     "importCompleteLinkButton": {
@@ -398,7 +398,7 @@
         "description": "When there are multiple previously-verified group members with safety number changes, a banner will be shown. The list of contacts with safety number changes is shown, and this text introduces that list."
     },
     "changedRightAfterVerify": {
-        "message": "Số an toàn bạn đang cố để xác minh đã thay đổi. Xin hãy xem lại số an toàn mới của bạn với $name1$. Xin nhớ rằng, thay đổi này có thể có nghĩa là có người đang cố gắng chặn liên lạc của bạn hoặc đơn giản là $name2$ đã cài đặt lại Signal.",
+        "message": "Số an toàn bạn đang cố để xác minh đã thay đổi. Xin hãy xem lại số an toàn mới của bạn với $name1$. Xin nhớ rằng, thay đổi này có thể có nghĩa là có người đang cố gắng chặn liên lạc của bạn hoặc đơn giản là $name2$ đã cài đặt lại Peepline.",
         "description": "Shown on the safety number screen when the user has selected to verify/unverify a contact's safety number, and we immediately discover a safety number change",
         "placeholders": {
             "name1": {
@@ -430,7 +430,7 @@
         }
     },
     "identityKeyErrorOnSend": {
-        "message": "Số an toàn bạn đang cố để xác minh đã thay đổi. Xin hãy xem lại số an toàn mới của bạn với $name1$. Xin nhớ rằng, thay đổi này có thể có nghĩa là có người đang cố gắng chặn liên lạc của bạn hoặc đơn giản là $name2$ đã cài đặt lại Signal. Bạn nên xác minh lại số an toàn của mình với liên hệ này.",
+        "message": "Số an toàn bạn đang cố để xác minh đã thay đổi. Xin hãy xem lại số an toàn mới của bạn với $name1$. Xin nhớ rằng, thay đổi này có thể có nghĩa là có người đang cố gắng chặn liên lạc của bạn hoặc đơn giản là $name2$ đã cài đặt lại Peepline. Bạn nên xác minh lại số an toàn của mình với liên hệ này.",
         "description": "Shown when user clicks on a failed recipient in the message detail view after an identity key change",
         "placeholders": {
             "name1": {
@@ -550,7 +550,7 @@
         "description": "Header for a key change dialog"
     },
     "identityChanged": {
-        "message": "Số an toàn của bạn với người (liên lạc) này đã thay đổi. Điều này có nghĩa là ai đó đang cố chặn liên lạc của bạn, hoặc đơn giản là người (liên lạc) này đã cài đặt lại Signal. Bạn có thể muốn xác minh số an toàn mới bên dưới.",
+        "message": "Số an toàn của bạn với người (liên lạc) này đã thay đổi. Điều này có nghĩa là ai đó đang cố chặn liên lạc của bạn, hoặc đơn giản là người (liên lạc) này đã cài đặt lại Peepline. Bạn có thể muốn xác minh số an toàn mới bên dưới.",
         "description": ""
     },
     "incomingError": {
@@ -615,11 +615,11 @@
     },
     "loadingPreview": {
         "message": "Đang tải Bản xem trước...",
-        "description": "Shown while Signal Desktop is fetching metadata for a url in composition area"
+        "description": "Shown while Peepline Desktop is fetching metadata for a url in composition area"
     },
     "stagedPreviewThumbnail": {
         "message": "Bản nháp hình thu nhỏ liên kết bản xem trước cho $domain$",
-        "description": "Shown while Signal Desktop is fetching metadata for a url in composition area",
+        "description": "Shown while Peepline Desktop is fetching metadata for a url in composition area",
         "placeholders": {
             "path": {
                 "content": "$1",
@@ -629,7 +629,7 @@
     },
     "previewThumbnail": {
         "message": "Hình thu nhỏ liên kết bản xem trước cho $domain$",
-        "description": "Shown while Signal Desktop is fetching metadata for a url in composition area",
+        "description": "Shown while Peepline Desktop is fetching metadata for a url in composition area",
         "placeholders": {
             "path": {
                 "content": "$1",
@@ -733,18 +733,18 @@
     },
     "joinTheBeta": {
         "message": "Tham gia bản Beta",
-        "description": "Item under the Help menu, takes you to an article describing how to install the beta release of Signal Desktop"
+        "description": "Item under the Help menu, takes you to an article describing how to install the beta release of Peepline Desktop"
     },
     "signalDesktopPreferences": {
-        "message": "Quyền ưu tiên Signal Desktop",
-        "description": "Title of the window that pops up with Signal Desktop preferences in it"
+        "message": "Quyền ưu tiên Peepline Desktop",
+        "description": "Title of the window that pops up with Peepline Desktop preferences in it"
     },
     "signalDesktopStickerCreator": {
         "message": "Tác giả gói nhãn dán",
-        "description": "Title of the window that pops up with Signal Desktop preferences in it"
+        "description": "Title of the window that pops up with Peepline Desktop preferences in it"
     },
     "aboutSignalDesktop": {
-        "message": "Giới thiệu Signal Desktop",
+        "message": "Giới thiệu Peepline Desktop",
         "description": "Item under the Help menu, which opens a small about window"
     },
     "screenShareWindow": {
@@ -768,7 +768,7 @@
         "description": "Command in the tray icon menu, to quit the application"
     },
     "signalDesktop": {
-        "message": "Signal Desktop",
+        "message": "Peepline Desktop",
         "description": "Tooltip for the tray icon"
     },
     "search": {
@@ -842,7 +842,7 @@
         }
     },
     "welcomeToSignal": {
-        "message": "Chào mừng đến với Signal",
+        "message": "Chào mừng đến với Peepline",
         "description": ""
     },
     "whatsNew": {
@@ -996,15 +996,15 @@
         }
     },
     "audioPermissionNeeded": {
-        "message": "Để gửi tập tin âm thanh, hãy chắc chắn rằng Signal Desktop được phép truy cập micro.",
+        "message": "Để gửi tập tin âm thanh, hãy chắc chắn rằng Peepline Desktop được phép truy cập micro.",
         "description": "Shown if the user attempts to send an audio message without audio permissions turned on"
     },
     "audioCallingPermissionNeeded": {
-        "message": "Để thực hiện cuộc gọi, bạn cần phải cho phép Signal Desktop truy cập microphone của bạn.",
+        "message": "Để thực hiện cuộc gọi, bạn cần phải cho phép Peepline Desktop truy cập microphone của bạn.",
         "description": "Shown if the user attempts access the microphone for calling without audio permissions turned on"
     },
     "videoCallingPermissionNeeded": {
-        "message": "Để thực hiện cuộc gọi video, bạn cần phải cho phép Signal Desktop truy cập camera của bạn.",
+        "message": "Để thực hiện cuộc gọi video, bạn cần phải cho phép Peepline Desktop truy cập camera của bạn.",
         "description": "Shown if the user attempts access the camera for video calling without video permissions turned on"
     },
     "allowAccess": {
@@ -1044,7 +1044,7 @@
         "description": "Shown in a button when a conversation is unmuted and can be muted"
     },
     "cannotUpdateDetail": {
-        "message": "Signal Desktop không thể cập nhật, nhưng đã có phiên bản mới hơn. Xin hãy truy cập $url$ và cài đặt thủ công phiên bản mới, sau đó hãy liên lạc bên hỗ trợ hoặc gửi thông báo lỗi về vấn đề này. ",
+        "message": "Peepline Desktop không thể cập nhật, nhưng đã có phiên bản mới hơn. Xin hãy truy cập $url$ và cài đặt thủ công phiên bản mới, sau đó hãy liên lạc bên hỗ trợ hoặc gửi thông báo lỗi về vấn đề này. ",
         "description": "Shown if a general error happened while trying to install update package",
         "placeholders": {
             "url": {
@@ -1054,12 +1054,12 @@
         }
     },
     "readOnlyVolume": {
-        "message": "Signal Desktop đang trong tình trạng cách ly trên macOS, và sẽ không thể tự-cập nhật được. Xin hãy dời $app$ đến $folder$ với ứng dụng Finder.",
+        "message": "Peepline Desktop đang trong tình trạng cách ly trên macOS, và sẽ không thể tự-cập nhật được. Xin hãy dời $app$ đến $folder$ với ứng dụng Finder.",
         "description": "Shown on MacOS if running on a read-only volume and we cannot update",
         "placeholders": {
             "app": {
                 "content": "$1",
-                "example": "Signal.app"
+                "example": "Peepline.app"
             },
             "folder": {
                 "content": "$2",
@@ -1116,7 +1116,7 @@
         "description": "Text shown in the confirmation dialog for deleting a message locally"
     },
     "deleteForEveryoneWarning": {
-        "message": "Tin nhắn này sẽ được xóa cho tất cả thành viên nhóm nếu họ đang dùng phiên bản Signal mới. Họ cũng có thể biết rằng bạn đã xóa tin nhắn.",
+        "message": "Tin nhắn này sẽ được xóa cho tất cả thành viên nhóm nếu họ đang dùng phiên bản Peepline mới. Họ cũng có thể biết rằng bạn đã xóa tin nhắn.",
         "description": "Text shown in the confirmation dialog for deleting a message for everyone"
     },
     "from": {
@@ -1222,7 +1222,7 @@
         "description": "Shown in timeline when session is automatically reset, to provide access to a popup info dialog"
     },
     "ChatRefresh--summary": {
-        "message": "Signal sử dụng bảo mật hai chiều và đôi khi sẽ cần làm mới phiên trò chuyện của bạn. Việc này không ảnh hưởng sự bảo mật của cuộc trò chuyện của bạn nhưng bạn có thể bị nhỡ tin nhắn từ liên hệ này và bạn có thể hỏi họ gửi lại.",
+        "message": "Peepline sử dụng bảo mật hai chiều và đôi khi sẽ cần làm mới phiên trò chuyện của bạn. Việc này không ảnh hưởng sự bảo mật của cuộc trò chuyện của bạn nhưng bạn có thể bị nhỡ tin nhắn từ liên hệ này và bạn có thể hỏi họ gửi lại.",
         "description": "Shown on explainer dialog available from chat session refreshed timeline events"
     },
     "ChatRefresh--contactSupport": {
@@ -1314,35 +1314,35 @@
         "description": "Used in the media gallery documents tab to visually represent a file"
     },
     "installWelcome": {
-        "message": "Chào mừng đến với Signal Desktop",
+        "message": "Chào mừng đến với Peepline Desktop",
         "description": "Welcome title on the install page"
     },
     "installTagline": {
-        "message": "Sự riêng tư là khả thi. Signal khiến điều đó trở nên dễ dàng.",
+        "message": "Sự riêng tư là khả thi. Peepline khiến điều đó trở nên dễ dàng.",
         "description": "Tagline displayed under 'installWelcome' string on the install page"
     },
     "linkYourPhone": {
-        "message": "Liên kết điện thoại của bạn với Signal Desktop",
+        "message": "Liên kết điện thoại của bạn với Peepline Desktop",
         "description": "Shown on the front page when the application first starts, above the QR code"
     },
     "signalSettings": {
-        "message": "Signal Cài đặt",
-        "description": "Used in the guidance to help people find the 'link new device' area of their Signal mobile app"
+        "message": "Peepline Cài đặt",
+        "description": "Used in the guidance to help people find the 'link new device' area of their Peepline mobile app"
     },
     "linkedDevices": {
         "message": "Các thiết bị Được liên kết",
-        "description": "Used in the guidance to help people find the 'link new device' area of their Signal mobile app"
+        "description": "Used in the guidance to help people find the 'link new device' area of their Peepline mobile app"
     },
     "plusButton": {
         "message": "Nút '+'",
-        "description": "The button used in Signal Android to add a new linked device"
+        "description": "The button used in Peepline Android to add a new linked device"
     },
     "linkNewDevice": {
         "message": "Liên kết Thiết bị Mới",
-        "description": "The menu option shown in Signal iOS to add a new linked device"
+        "description": "The menu option shown in Peepline iOS to add a new linked device"
     },
     "LinkScreen__scan-this-code": {
-        "message": "Scan this code in the Signal app on your phone",
+        "message": "Scan this code in the Peepline app on your phone",
         "description": "Alt text for the QR code on the device link screen"
     },
     "Preferences--device-name": {
@@ -1370,7 +1370,7 @@
         "description": ""
     },
     "installTooOld": {
-        "message": "Cập nhật Signal trên thiết bị này để kết nối thiết bị của bạn.",
+        "message": "Cập nhật Peepline trên thiết bị này để kết nối thiết bị của bạn.",
         "description": ""
     },
     "installErrorHeader": {
@@ -1550,7 +1550,7 @@
         }
     },
     "calling__pre-call-info--will-ring-1": {
-        "message": "Signal will ring $person$",
+        "message": "Peepline will ring $person$",
         "description": "Shown in the calling lobby to describe who will be rung",
         "placeholders": {
             "person": {
@@ -1560,7 +1560,7 @@
         }
     },
     "calling__pre-call-info--will-ring-2": {
-        "message": "Signal will ring $first$ and $second$",
+        "message": "Peepline will ring $first$ and $second$",
         "description": "Shown in the calling lobby to describe who will be rang",
         "placeholders": {
             "first": {
@@ -1574,7 +1574,7 @@
         }
     },
     "calling__pre-call-info--will-ring-3": {
-        "message": "Signal will ring $first$, $second$, and $third$",
+        "message": "Peepline will ring $first$, $second$, and $third$",
         "description": "Shown in the calling lobby to describe who will be rang",
         "placeholders": {
             "first": {
@@ -1592,7 +1592,7 @@
         }
     },
     "calling__pre-call-info--will-ring-many": {
-        "message": "Signal will ring $first$, $second$, and $others$ others",
+        "message": "Peepline will ring $first$, $second$, and $others$ others",
         "description": "Shown in the calling lobby to describe who will be rang",
         "placeholders": {
             "person": {
@@ -1718,7 +1718,7 @@
         "description": "Body text for the share screen notification"
     },
     "calling__presenting--info": {
-        "message": "Signal đang chia sẻ $window$.",
+        "message": "Peepline đang chia sẻ $window$.",
         "description": "Text that appears in the screen sharing controller to inform person that they are presenting",
         "placeholders": {
             "name": {
@@ -1760,7 +1760,7 @@
         "description": "Shown as the title for the modal that requests screen recording permissions"
     },
     "calling__presenting--macos-permission-description": {
-        "message": "Signal cần sự cho phép để truy cập ghi màn hình của máy tính của bạn.",
+        "message": "Peepline cần sự cho phép để truy cập ghi màn hình của máy tính của bạn.",
         "description": "Shown as the description for the modal that requests screen recording permissions"
     },
     "calling__presenting--permission-instruction-step1": {
@@ -1772,7 +1772,7 @@
         "description": "Shown as the description for the modal that requests screen recording permissions"
     },
     "calling__presenting--permission-instruction-step3": {
-        "message": "Phía bên tay phải, đánh vào ô cạnh chữ Signal. Nếu bạn không thấy Signal trong danh sách, nhấn dấu + để thêm vào.",
+        "message": "Phía bên tay phải, đánh vào ô cạnh chữ Peepline. Nếu bạn không thấy Peepline trong danh sách, nhấn dấu + để thêm vào.",
         "description": "Shown as the description for the modal that requests screen recording permissions"
     },
     "calling__presenting--permission-open": {
@@ -1788,7 +1788,7 @@
         "description": "Description of the always relay calls setting"
     },
     "alwaysRelayCallsDetail": {
-        "message": "Chuyển tiếp tất cả cuộc gọi qua máy chủ Signal để tránh lộ địa chỉ IP với đối tác. Bật tính năng này sẽ giảm chất lượng cuộc gọi.",
+        "message": "Chuyển tiếp tất cả cuộc gọi qua máy chủ Peepline để tránh lộ địa chỉ IP với đối tác. Bật tính năng này sẽ giảm chất lượng cuộc gọi.",
         "description": "Details describing the always relay calls setting"
     },
     "permissions": {
@@ -1812,12 +1812,12 @@
         "description": "Description of the spell check setting"
     },
     "spellCheckWillBeEnabled": {
-        "message": "Kiểm tra chính tả sẽ được bật lên lần tiếp theo Signal khởi động.",
-        "description": "Shown when the user enables spellcheck to indicate that they must restart Signal."
+        "message": "Kiểm tra chính tả sẽ được bật lên lần tiếp theo Peepline khởi động.",
+        "description": "Shown when the user enables spellcheck to indicate that they must restart Peepline."
     },
     "spellCheckWillBeDisabled": {
-        "message": "Kiểm tra chính tả đã được tắt lần tiếp theo Signal khởi động.",
-        "description": "Shown when the user disables spellcheck to indicate that they must restart Signal."
+        "message": "Kiểm tra chính tả đã được tắt lần tiếp theo Peepline khởi động.",
+        "description": "Shown when the user disables spellcheck to indicate that they must restart Peepline."
     },
     "SystemTraySetting__minimize-to-system-tray": {
         "message": "Thu nhỏ vào thanh hệ thống",
@@ -1860,8 +1860,8 @@
         "description": "Message shown to user when app is disconnected and data deleted"
     },
     "deleteOldIndexedDBData": {
-        "message": "Bạn có dữ liệu cũ từ một lần cài đặt trước của Signal Desktop. Nếu bạn chọn để tiếp tục, dữ liệu sẽ bị xoá và bạn sẽ bắt đầu lại từ đầu.",
-        "description": "Shown if user last ran Signal Desktop before October 2018"
+        "message": "Bạn có dữ liệu cũ từ một lần cài đặt trước của Peepline Desktop. Nếu bạn chọn để tiếp tục, dữ liệu sẽ bị xoá và bạn sẽ bắt đầu lại từ đầu.",
+        "description": "Shown if user last ran Peepline Desktop before October 2018"
     },
     "deleteOldData": {
         "message": "Xoá Dữ liệu Cũ",
@@ -1966,7 +1966,7 @@
         "description": "Text that links to a support article on verifying safety numbers"
     },
     "expiredWarning": {
-        "message": "Phiên bản này của Signal Desktop đã hết hạn. Vui lòng nâng cấp lên phiên bản mới nhất để tiếp tục nhắn tin.",
+        "message": "Phiên bản này của Peepline Desktop đã hết hạn. Vui lòng nâng cấp lên phiên bản mới nhất để tiếp tục nhắn tin.",
         "description": "Warning notification that this version of the app has expired"
     },
     "upgrade": {
@@ -1986,7 +1986,7 @@
         "description": "Label for contact and group sync settings"
     },
     "syncExplanation": {
-        "message": "Nhập tất cả liên hệ và nhóm của Signal từ thiết bị di động của bạn.",
+        "message": "Nhập tất cả liên hệ và nhóm của Peepline từ thiết bị di động của bạn.",
         "description": "Explanatory text for sync settings"
     },
     "lastSynced": {
@@ -2279,10 +2279,10 @@
     },
     "Toast--failed-to-fetch-username": {
         "message": "Failed to fetch username. Check your connection and try again.",
-        "description": "Shown if request to Signal servers to find username fails"
+        "description": "Shown if request to Peepline servers to find username fails"
     },
     "startConversation--username-not-found": {
-        "message": "User not found. $atUsername$ is not a Signal user; make sure you’ve entered the complete username.",
+        "message": "User not found. $atUsername$ is not a Peepline user; make sure you’ve entered the complete username.",
         "description": "Shown in dialog if username is not found. Note that 'username' will be the output of at-username",
         "placeholders": {
             "atUsername": {
@@ -2312,7 +2312,7 @@
         "description": "Shown in the alert when you add the maximum number of group members"
     },
     "chooseGroupMembers__maximum-group-size__body": {
-        "message": "Nhóm Signal có thể có tối đa $max$ thành viên.",
+        "message": "Nhóm Peepline có thể có tối đa $max$ thành viên.",
         "description": "Shown in the alert when you add the maximum number of group members",
         "placeholders": {
             "max": {
@@ -2326,7 +2326,7 @@
         "description": "Shown in the alert when you add the maximum recommended number of group members"
     },
     "chooseGroupMembers__maximum-recommended-group-size__body": {
-        "message": "Nhóm Signal hoạt động tốt nhất với $max$ thành viên hoặc ít hơn. Thêm nhiều thành viên hơn sẽ gây trì hoãn trong việc nhận và gửi tin nhắn.",
+        "message": "Nhóm Peepline hoạt động tốt nhất với $max$ thành viên hoặc ít hơn. Thêm nhiều thành viên hơn sẽ gây trì hoãn trong việc nhận và gửi tin nhắn.",
         "description": "Shown in the alert when you add the maximum recommended number of group members",
         "placeholders": {
             "max": {
@@ -2340,7 +2340,7 @@
         "description": "Shown in the alert when you try to add someone who can't be added to a group"
     },
     "chooseGroupMembers__cant-add-member__body": {
-        "message": "\"$name$\" không thể được thêm vào nhóm vì họ đang dùng một phiên bản cũ của Signal. Bạn có thể thêm họ vào nhóm sau khi họ đã cập nhật Signal.",
+        "message": "\"$name$\" không thể được thêm vào nhóm vì họ đang dùng một phiên bản cũ của Peepline. Bạn có thể thêm họ vào nhóm sau khi họ đã cập nhật Peepline.",
         "description": "Shown in the alert when you try to add someone who can't be added to a group",
         "placeholders": {
             "max": {
@@ -2398,7 +2398,7 @@
         "description": "When a person inputs a number that is invalid"
     },
     "unlinkedWarning": {
-        "message": "Click to relink Signal Desktop to your mobile device to continue messaging.",
+        "message": "Click to relink Peepline Desktop to your mobile device to continue messaging.",
         "description": ""
     },
     "unlinked": {
@@ -2414,7 +2414,7 @@
         "description": ""
     },
     "autoUpdateNewVersionMessage": {
-        "message": "Click to restart Signal",
+        "message": "Click to restart Peepline",
         "description": ""
     },
     "downloadNewVersionMessage": {
@@ -2422,11 +2422,11 @@
         "description": ""
     },
     "autoUpdateNewVersionInstructions": {
-        "message": "Nhấn Khởi động lại Signal để áp dụng bản cập nhật.",
+        "message": "Nhấn Khởi động lại Peepline để áp dụng bản cập nhật.",
         "description": ""
     },
     "autoUpdateRestartButtonLabel": {
-        "message": "Khởi động lại Signal",
+        "message": "Khởi động lại Peepline",
         "description": ""
     },
     "autoUpdateLaterButtonLabel": {
@@ -2624,11 +2624,11 @@
         "description": "Shown in the sticker pack manager when you don't have any installed sticker packs."
     },
     "stickers--StickerManager--BlessedPacks": {
-        "message": "Tuyển tập Nghệ sĩ Signal",
+        "message": "Tuyển tập Nghệ sĩ Peepline",
         "description": "Shown in the sticker pack manager above the default sticker packs."
     },
     "stickers--StickerManager--BlessedPacks--Empty": {
-        "message": "Không có sẵn nhãn dán Nghệ sĩ Signal",
+        "message": "Không có sẵn nhãn dán Nghệ sĩ Peepline",
         "description": "Shown in the sticker pack manager when there are no blessed sticker packs available."
     },
     "stickers--StickerManager--ReceivedPacks": {
@@ -2653,15 +2653,15 @@
     },
     "stickers--StickerManager--Introduction--Image": {
         "message": "Xin giới thiệu nhãn dán: Bandit the Cat",
-        "description": "Alt text on a tooltip image when the user upgrades to a version of Signal supporting stickers."
+        "description": "Alt text on a tooltip image when the user upgrades to a version of Peepline supporting stickers."
     },
     "stickers--StickerManager--Introduction--Title": {
         "message": "Xin giới thiệu Nhãn dán",
-        "description": "Shown as the title on a tooltip when the user upgrades to a version of Signal supporting stickers."
+        "description": "Shown as the title on a tooltip when the user upgrades to a version of Peepline supporting stickers."
     },
     "stickers--StickerManager--Introduction--Body": {
         "message": "Tại sao phải sử dụng từ ngữ khi mà bạn có thể sử dụng nhãn dán?",
-        "description": "Shown as the body on a tooltip when the user upgrades to a version of Signal supporting stickers."
+        "description": "Shown as the body on a tooltip when the user upgrades to a version of Peepline supporting stickers."
     },
     "stickers--StickerPicker--Open": {
         "message": "Mở bộ chọn nhãn dán",
@@ -2778,7 +2778,7 @@
         "description": "When a message is too long this is the affordance to expand the message"
     },
     "Message--unsupported-message": {
-        "message": "$contact$ đã gửi cho bạn một tin nhắn nhưng không thể xử lý hoặc hiển thị vì sử dụng tính năng Signal mới.",
+        "message": "$contact$ đã gửi cho bạn một tin nhắn nhưng không thể xử lý hoặc hiển thị vì sử dụng tính năng Peepline mới.",
         "description": "",
         "placeholders": {
             "contact": {
@@ -2788,7 +2788,7 @@
         }
     },
     "Message--unsupported-message-ask-to-resend": {
-        "message": "Bạn có thể yêu cầu $contact$ gửi lại tin nhắn này khi bạn đang sử dụng phiên bản Signal mới cập nhật.",
+        "message": "Bạn có thể yêu cầu $contact$ gửi lại tin nhắn này khi bạn đang sử dụng phiên bản Peepline mới cập nhật.",
         "description": "",
         "placeholders": {
             "contact": {
@@ -2798,16 +2798,16 @@
         }
     },
     "Message--from-me-unsupported-message": {
-        "message": "Một trong những thiết bị của bạn đã gửi một tin nhắn không thể xử lý hoặc hiển thị vì sử dụng tính năng Signal mới.",
+        "message": "Một trong những thiết bị của bạn đã gửi một tin nhắn không thể xử lý hoặc hiển thị vì sử dụng tính năng Peepline mới.",
         "description": ""
     },
     "Message--from-me-unsupported-message-ask-to-resend": {
-        "message": "Các tin nhắn như thế này trong tương lai sẽ được đồng bộ hóa khi bạn đang sử dụng phiên bản  Signal cập nhật.",
+        "message": "Các tin nhắn như thế này trong tương lai sẽ được đồng bộ hóa khi bạn đang sử dụng phiên bản  Peepline cập nhật.",
         "description": ""
     },
     "Message--update-signal": {
-        "message": "Cập nhật Signal",
-        "description": "Text for a button which will take user to Signal download page"
+        "message": "Cập nhật Peepline",
+        "description": "Text for a button which will take user to Peepline download page"
     },
     "Message--tap-to-view-expired": {
         "message": "Đã xem",
@@ -3232,7 +3232,7 @@
         "description": "Text for the create another sticker pack button on the share stage of the sticker creator"
     },
     "StickerCreator--ShareStage--socialMessage": {
-        "message": "Xem gói nhãn dán tôi vừa tạo cho Signal này. #makeprivacystick",
+        "message": "Xem gói nhãn dán tôi vừa tạo cho Peepline này. #makeprivacystick",
         "description": "Text which is shared to social media platforms for sticker packs"
     },
     "StickerCreator--Toasts--imagesAdded": {
@@ -3296,7 +3296,7 @@
         "description": "Text for the sticker preview for the dark theme"
     },
     "StickerCreator--Authentication--error": {
-        "message": "Vui lòng cài Signal trên điện thoại và máy tính để sử dụng Công cụ tạo nhãn dán Signal",
+        "message": "Vui lòng cài Peepline trên điện thoại và máy tính để sử dụng Công cụ tạo nhãn dán Peepline",
         "description": "The error message which appears when the user has not linked their account and attempts to use the Sticker Creator"
     },
     "Reactions--remove": {
@@ -3768,7 +3768,7 @@
         "description": "Shown in the call screen when the call is reconnecting due to network issues"
     },
     "callDuration": {
-        "message": "Signal $duration$",
+        "message": "Peepline $duration$",
         "description": "Shown in the call screen to indicate how long the call has been connected",
         "placeholders": {
             "duration": {
@@ -3964,7 +3964,7 @@
         "description": "Shown in toast when you attempt to forward a message to an announcement only group"
     },
     "GroupV2--add--missing-capability": {
-        "message": "These people cannot be added to the group until they upgrade Signal.",
+        "message": "These people cannot be added to the group until they upgrade Peepline.",
         "description": "Shown in a confirmation dialog when members who cannot view announcement only group cannot be added"
     },
     "GroupV2--cannot-start-group-call": {
@@ -3996,7 +3996,7 @@
         "description": "This group link is no longer valid."
     },
     "GroupV2--join--unknown-link-version": {
-        "message": "Đường dẫn này không được hỗ trợ bởi phiên bản Signal Desktop này.",
+        "message": "Đường dẫn này không được hỗ trợ bởi phiên bản Peepline Desktop này.",
         "description": "Shown if you click a group link and we can't get information about it"
     },
     "GroupV2--join--link-revoked--title": {
@@ -5320,11 +5320,11 @@
         "description": "In the instructions for becoming a sustainer. The heading."
     },
     "BadgeSustainerInstructions__subheader": {
-        "message": "Signal is powered by people like you. Contribute and receive a badge.",
+        "message": "Peepline is powered by people like you. Contribute and receive a badge.",
         "description": "In the instructions for becoming a sustainer. The subheading."
     },
     "BadgeSustainerInstructions__instructions__1": {
-        "message": "Open Signal on your phone",
+        "message": "Open Peepline on your phone",
         "description": "In the instructions for becoming a sustainer. First instruction."
     },
     "BadgeSustainerInstructions__instructions__2": {
@@ -5344,11 +5344,11 @@
         "description": "Aria label for file attachment button in composition area"
     },
     "CompositionArea--sms-only__title": {
-        "message": "Người này đang không dùng Signal",
+        "message": "Người này đang không dùng Peepline",
         "description": "Title for the composition area for the SMS-only contact"
     },
     "CompositionArea--sms-only__body": {
-        "message": "Signal Desktop không hỗ trợ nhắn tin cho các liên hệ ngoài-Signal. Hãy hỏi người này cài đặt Signal để có trải nghiệm nhắn tin bảo mật hơn.",
+        "message": "Peepline Desktop không hỗ trợ nhắn tin cho các liên hệ ngoài-Peepline. Hãy hỏi người này cài đặt Peepline để có trải nghiệm nhắn tin bảo mật hơn.",
         "description": "Body for the composition area for the SMS-only contact"
     },
     "CompositionArea--sms-only__spinner-label": {
@@ -5897,10 +5897,10 @@
     },
     "MessageRequestWarning__dialog__learn-even-more": {
         "message": "Về Yêu cầu Nhắn tin",
-        "description": "Shown in the message request warning dialog. Clicking this button will open a page on Signal's support site"
+        "description": "Shown in the message request warning dialog. Clicking this button will open a page on Peepline's support site"
     },
     "ContactSpoofing__same-name": {
-        "message": "Xem lại các yêu cầu cẩn thận. Signal tìm thấy một liên hệ khác với cùng tên. $link$",
+        "message": "Xem lại các yêu cầu cẩn thận. Peepline tìm thấy một liên hệ khác với cùng tên. $link$",
         "description": "Shown in the timeline warning when you have a message request from someone with the same name as someone else",
         "placeholders": {
             "link": {
@@ -5992,7 +5992,7 @@
         "description": "Header in the captcha dialog"
     },
     "CaptchaDialog__first-paragraph": {
-        "message": "Để hạn chế spam trên Signal, vui lòng thực hiện xác minh.",
+        "message": "Để hạn chế spam trên Peepline, vui lòng thực hiện xác minh.",
         "description": "First paragraph in the captcha dialog"
     },
     "CaptchaDialog__second-paragraph": {
@@ -6252,7 +6252,7 @@
         "description": "Placeholder for the username field"
     },
     "ProfileEditor--username--helper": {
-        "message": "Tên người dùng trên Signal là không bắt buộc. Nếu bạn chọn tạo một tên người dùng, những người dùng Signal khác sẽ có thể tìm được bạn bằng tên này và liên lạc với bạn mà không cần biết số điện thoại của bạn.",
+        "message": "Tên người dùng trên Peepline là không bắt buộc. Nếu bạn chọn tạo một tên người dùng, những người dùng Peepline khác sẽ có thể tìm được bạn bằng tên này và liên lạc với bạn mà không cần biết số điện thoại của bạn.",
         "description": "Shown on the edit username screen"
     },
     "ProfileEditor--username--check-characters": {
@@ -6462,7 +6462,7 @@
         "description": "Title for the generate link previews setting"
     },
     "Preferences__link-previews--description": {
-        "message": "To change this setting, open the Signal app on your mobile device and navigate to Settings > Chats",
+        "message": "To change this setting, open the Peepline app on your mobile device and navigate to Settings > Chats",
         "description": "Description for the generate link previews setting"
     },
     "Preferences--advanced": {
@@ -6502,7 +6502,7 @@
         "description": "Title for the 'who can do X' setting"
     },
     "Preferences__privacy--description": {
-        "message": "To change these settings, open the Signal app on your mobile device and navigate to Settings > Privacy",
+        "message": "To change these settings, open the Peepline app on your mobile device and navigate to Settings > Privacy",
         "description": "Description for the 'who can do X' setting"
     },
     "Preferences__who-can--everybody": {
@@ -6564,7 +6564,7 @@
         }
     },
     "NSIS__retry-dialog--first-line": {
-        "message": "Signal cannot be closed.",
+        "message": "Peepline cannot be closed.",
         "description": "First line of the dialog displayed when Windows installer can't close application automatically and needs user intervention to complete the installation."
     },
     "NSIS__retry-dialog--second-line": {
@@ -6600,11 +6600,11 @@
         "description": "Release notes for v5.24"
     },
     "WhatsNew__v5.25--1": {
-        "message": "This version contains a number of small tweaks and bug fixes to keep Signal running smoothly.",
+        "message": "This version contains a number of small tweaks and bug fixes to keep Peepline running smoothly.",
         "description": "Release notes for v5.25"
     },
     "WhatsNew__bugfixes": {
-        "message": "This version contains a number of small tweaks and bug fixes to keep Signal running smoothly.",
+        "message": "This version contains a number of small tweaks and bug fixes to keep Peepline running smoothly.",
         "description": "Release notes for releases that only include bug fixes"
     }
 }

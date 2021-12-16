@@ -72,7 +72,7 @@
         "description": "Application menu command to show all application windows"
     },
     "appMenuQuit": {
-        "message": "Выйти из Signal",
+        "message": "Выйти из Peepline",
         "description": "Application menu command to close the application"
     },
     "editMenuUndo": {
@@ -184,7 +184,7 @@
         "description": "One of the menu options available in the Avatar popup menu"
     },
     "avatarMenuUpdateAvailable": {
-        "message": "Обновить Signal",
+        "message": "Обновить Peepline",
         "description": "One of the menu options available in the Avatar popup menu"
     },
     "loading": {
@@ -258,7 +258,7 @@
         "description": "Header shown on the first screen in the data import process"
     },
     "loadDataDescription": {
-        "message": "Вы только что прошли процесс экспорта, и ваши контакты и сообщения терпеливо ждут вас на вашем компьютере. Выберите папку, содержащую ваши сохраненные данные Signal.",
+        "message": "Вы только что прошли процесс экспорта, и ваши контакты и сообщения терпеливо ждут вас на вашем компьютере. Выберите папку, содержащую ваши сохраненные данные Peepline.",
         "description": "Introduction to the process of importing messages and contacts from disk"
     },
     "importChooserTitle": {
@@ -274,7 +274,7 @@
         "description": "Header of screen shown as data is import"
     },
     "importErrorFirst": {
-        "message": "Убедитесь, что вы выбрали правильный каталог, содержащий ваши сохраненные данные Signal. Его название должно начинаться с «Signal Export». Также вы можете сохранить новую копию своих данных из приложения для Chrome.",
+        "message": "Убедитесь, что вы выбрали правильный каталог, содержащий ваши сохраненные данные Peepline. Его название должно начинаться с «Peepline Export». Также вы можете сохранить новую копию своих данных из приложения для Chrome.",
         "description": "Message shown if the import went wrong; first paragraph"
     },
     "importErrorSecond": {
@@ -290,7 +290,7 @@
         "description": "Header shown on the screen at the end of a successful import process"
     },
     "importCompleteStartButton": {
-        "message": "Начать использование Signal Desktop",
+        "message": "Начать использование Peepline Desktop",
         "description": "Button shown at end of successful import process, nothing left but a restart"
     },
     "importCompleteLinkButton": {
@@ -398,7 +398,7 @@
         "description": "When there are multiple previously-verified group members with safety number changes, a banner will be shown. The list of contacts with safety number changes is shown, and this text introduces that list."
     },
     "changedRightAfterVerify": {
-        "message": "Код безопасности, который вы пытаетесь подтвердить, изменился. Пожалуйста, перепроверьте ваш код безопасности с $name1$. Помните, это изменение может означать, что кто-то пытается перехватить вашу переписку и звонки или что $name2$ просто переустановил(-а) Signal.",
+        "message": "Код безопасности, который вы пытаетесь подтвердить, изменился. Пожалуйста, перепроверьте ваш код безопасности с $name1$. Помните, это изменение может означать, что кто-то пытается перехватить вашу переписку и звонки или что $name2$ просто переустановил(-а) Peepline.",
         "description": "Shown on the safety number screen when the user has selected to verify/unverify a contact's safety number, and we immediately discover a safety number change",
         "placeholders": {
             "name1": {
@@ -412,7 +412,7 @@
         }
     },
     "changedVerificationWarning": {
-        "message": "Следующие люди могли переустановить Signal или сменить устройства. Подтвердите ваш код безопасности с ними, чтобы обеспечить конфиденциальность.",
+        "message": "Следующие люди могли переустановить Peepline или сменить устройства. Подтвердите ваш код безопасности с ними, чтобы обеспечить конфиденциальность.",
         "description": "Shown on confirmation dialog when user attempts to send a message"
     },
     "safetyNumberChangeDialog__pending-messages--1": {
@@ -430,7 +430,7 @@
         }
     },
     "identityKeyErrorOnSend": {
-        "message": "Ваш код безопасности с $name1$ изменился. Это может означать, что кто-то пытается перехватить вашу переписку и звонки или что $name2$ просто переустановил(-а) Signal. Возможно, вы захотите подтвердить ваш код безопасности с этим контактом.",
+        "message": "Ваш код безопасности с $name1$ изменился. Это может означать, что кто-то пытается перехватить вашу переписку и звонки или что $name2$ просто переустановил(-а) Peepline. Возможно, вы захотите подтвердить ваш код безопасности с этим контактом.",
         "description": "Shown when user clicks on a failed recipient in the message detail view after an identity key change",
         "placeholders": {
             "name1": {
@@ -550,7 +550,7 @@
         "description": "Header for a key change dialog"
     },
     "identityChanged": {
-        "message": "Ваш код безопасности с этим контактом изменился. Это может означать, что кто-то пытается перехватить вашу переписку и звонки или что этот контакт просто переустановил Signal. Возможно, вам стоит подтвердить ваш новый код безопасности, показанный ниже.",
+        "message": "Ваш код безопасности с этим контактом изменился. Это может означать, что кто-то пытается перехватить вашу переписку и звонки или что этот контакт просто переустановил Peepline. Возможно, вам стоит подтвердить ваш новый код безопасности, показанный ниже.",
         "description": ""
     },
     "incomingError": {
@@ -615,11 +615,11 @@
     },
     "loadingPreview": {
         "message": "Загрузка предпросмотра…",
-        "description": "Shown while Signal Desktop is fetching metadata for a url in composition area"
+        "description": "Shown while Peepline Desktop is fetching metadata for a url in composition area"
     },
     "stagedPreviewThumbnail": {
         "message": "Черновик миниатюры предпросмотра ссылки для $domain$",
-        "description": "Shown while Signal Desktop is fetching metadata for a url in composition area",
+        "description": "Shown while Peepline Desktop is fetching metadata for a url in composition area",
         "placeholders": {
             "path": {
                 "content": "$1",
@@ -629,7 +629,7 @@
     },
     "previewThumbnail": {
         "message": "Миниатюра предпросмотра ссылки для $domain$",
-        "description": "Shown while Signal Desktop is fetching metadata for a url in composition area",
+        "description": "Shown while Peepline Desktop is fetching metadata for a url in composition area",
         "placeholders": {
             "path": {
                 "content": "$1",
@@ -648,7 +648,7 @@
         }
     },
     "decryptionErrorToast": {
-        "message": "В Signal Desktop произошла ошибка расшифровки.",
+        "message": "В Peepline Desktop произошла ошибка расшифровки.",
         "description": "An error popup when we haven't added an error for decryption error."
     },
     "decryptionErrorToastAction": {
@@ -733,18 +733,18 @@
     },
     "joinTheBeta": {
         "message": "Присоединиться к бета-версии",
-        "description": "Item under the Help menu, takes you to an article describing how to install the beta release of Signal Desktop"
+        "description": "Item under the Help menu, takes you to an article describing how to install the beta release of Peepline Desktop"
     },
     "signalDesktopPreferences": {
-        "message": "Параметры Signal Desktop",
-        "description": "Title of the window that pops up with Signal Desktop preferences in it"
+        "message": "Параметры Peepline Desktop",
+        "description": "Title of the window that pops up with Peepline Desktop preferences in it"
     },
     "signalDesktopStickerCreator": {
         "message": "Редактор наборов стикеров",
-        "description": "Title of the window that pops up with Signal Desktop preferences in it"
+        "description": "Title of the window that pops up with Peepline Desktop preferences in it"
     },
     "aboutSignalDesktop": {
-        "message": "О приложении Signal Desktop",
+        "message": "О приложении Peepline Desktop",
         "description": "Item under the Help menu, which opens a small about window"
     },
     "screenShareWindow": {
@@ -768,7 +768,7 @@
         "description": "Command in the tray icon menu, to quit the application"
     },
     "signalDesktop": {
-        "message": "Signal Desktop",
+        "message": "Peepline Desktop",
         "description": "Tooltip for the tray icon"
     },
     "search": {
@@ -794,7 +794,7 @@
         }
     },
     "noSearchResults--sms-only": {
-        "message": "Контакты SMS/MMS недоступны в Signal Desktop.",
+        "message": "Контакты SMS/MMS недоступны в Peepline Desktop.",
         "description": "Shown in the search left pane when no results were found and primary device has SMS/MMS handling enabled"
     },
     "noSearchResultsInConversation": {
@@ -842,7 +842,7 @@
         }
     },
     "welcomeToSignal": {
-        "message": "Добро пожаловать в Signal",
+        "message": "Добро пожаловать в Peepline",
         "description": ""
     },
     "whatsNew": {
@@ -996,15 +996,15 @@
         }
     },
     "audioPermissionNeeded": {
-        "message": "Чтобы отправлять аудиосообщения, разрешите Signal Desktop доступ к вашему микрофону.",
+        "message": "Чтобы отправлять аудиосообщения, разрешите Peepline Desktop доступ к вашему микрофону.",
         "description": "Shown if the user attempts to send an audio message without audio permissions turned on"
     },
     "audioCallingPermissionNeeded": {
-        "message": "Чтобы совершать звонки, вы должны разрешить Signal Desktop доступ к вашему микрофону.",
+        "message": "Чтобы совершать звонки, вы должны разрешить Peepline Desktop доступ к вашему микрофону.",
         "description": "Shown if the user attempts access the microphone for calling without audio permissions turned on"
     },
     "videoCallingPermissionNeeded": {
-        "message": "Чтобы совершать видеозвонки, вы должны разрешить Signal Desktop доступ к вашей камере.",
+        "message": "Чтобы совершать видеозвонки, вы должны разрешить Peepline Desktop доступ к вашей камере.",
         "description": "Shown if the user attempts access the camera for video calling without video permissions turned on"
     },
     "allowAccess": {
@@ -1044,7 +1044,7 @@
         "description": "Shown in a button when a conversation is unmuted and can be muted"
     },
     "cannotUpdateDetail": {
-        "message": "Signal Desktop не удалось обновиться, но новая версия доступна. Пожалуйста, перейдите на $url$ и установите новую версию вручную, затем свяжитесь с поддержкой или сообщите об этой проблеме.",
+        "message": "Peepline Desktop не удалось обновиться, но новая версия доступна. Пожалуйста, перейдите на $url$ и установите новую версию вручную, затем свяжитесь с поддержкой или сообщите об этой проблеме.",
         "description": "Shown if a general error happened while trying to install update package",
         "placeholders": {
             "url": {
@@ -1054,12 +1054,12 @@
         }
     },
     "readOnlyVolume": {
-        "message": "Скорее всего, Signal Desktop находится в карантине macOS и не сможет обновляться автоматически. Пожалуйста, попробуйте переместить $app$ в $folder$ при помощи Finder.",
+        "message": "Скорее всего, Peepline Desktop находится в карантине macOS и не сможет обновляться автоматически. Пожалуйста, попробуйте переместить $app$ в $folder$ при помощи Finder.",
         "description": "Shown on MacOS if running on a read-only volume and we cannot update",
         "placeholders": {
             "app": {
                 "content": "$1",
-                "example": "Signal.app"
+                "example": "Peepline.app"
             },
             "folder": {
                 "content": "$2",
@@ -1116,7 +1116,7 @@
         "description": "Text shown in the confirmation dialog for deleting a message locally"
     },
     "deleteForEveryoneWarning": {
-        "message": "Это сообщение будет удалено для всех в этом разговоре, если у них установлена недавняя версия Signal. Они смогут увидеть, что вы удалили сообщение.",
+        "message": "Это сообщение будет удалено для всех в этом разговоре, если у них установлена недавняя версия Peepline. Они смогут увидеть, что вы удалили сообщение.",
         "description": "Text shown in the confirmation dialog for deleting a message for everyone"
     },
     "from": {
@@ -1222,7 +1222,7 @@
         "description": "Shown in timeline when session is automatically reset, to provide access to a popup info dialog"
     },
     "ChatRefresh--summary": {
-        "message": "Signal использует сквозное шифрование, и ему иногда бывает нужно обновить сессию вашего чата. Это не затрагивает безопасность чата, но вы могли пропустить сообщение от этого собеседника. Вы можете попросить его отправить сообщение заново.",
+        "message": "Peepline использует сквозное шифрование, и ему иногда бывает нужно обновить сессию вашего чата. Это не затрагивает безопасность чата, но вы могли пропустить сообщение от этого собеседника. Вы можете попросить его отправить сообщение заново.",
         "description": "Shown on explainer dialog available from chat session refreshed timeline events"
     },
     "ChatRefresh--contactSupport": {
@@ -1314,35 +1314,35 @@
         "description": "Used in the media gallery documents tab to visually represent a file"
     },
     "installWelcome": {
-        "message": "Добро пожаловать в Signal Desktop",
+        "message": "Добро пожаловать в Peepline Desktop",
         "description": "Welcome title on the install page"
     },
     "installTagline": {
-        "message": "Приватное общение возможно. Signal помогает его упростить.",
+        "message": "Приватное общение возможно. Peepline помогает его упростить.",
         "description": "Tagline displayed under 'installWelcome' string on the install page"
     },
     "linkYourPhone": {
-        "message": "Привяжите свой телефон к Signal Desktop",
+        "message": "Привяжите свой телефон к Peepline Desktop",
         "description": "Shown on the front page when the application first starts, above the QR code"
     },
     "signalSettings": {
-        "message": "Настройки Signal",
-        "description": "Used in the guidance to help people find the 'link new device' area of their Signal mobile app"
+        "message": "Настройки Peepline",
+        "description": "Used in the guidance to help people find the 'link new device' area of their Peepline mobile app"
     },
     "linkedDevices": {
         "message": "Привязанные устройства",
-        "description": "Used in the guidance to help people find the 'link new device' area of their Signal mobile app"
+        "description": "Used in the guidance to help people find the 'link new device' area of their Peepline mobile app"
     },
     "plusButton": {
         "message": "Кнопка «+»",
-        "description": "The button used in Signal Android to add a new linked device"
+        "description": "The button used in Peepline Android to add a new linked device"
     },
     "linkNewDevice": {
         "message": "Привязать новое устройство",
-        "description": "The menu option shown in Signal iOS to add a new linked device"
+        "description": "The menu option shown in Peepline iOS to add a new linked device"
     },
     "LinkScreen__scan-this-code": {
-        "message": "Просканируйте этот код в приложении Signal на своем телефоне",
+        "message": "Просканируйте этот код в приложении Peepline на своем телефоне",
         "description": "Alt text for the QR code on the device link screen"
     },
     "Preferences--device-name": {
@@ -1370,7 +1370,7 @@
         "description": ""
     },
     "installTooOld": {
-        "message": "Обновите Signal на этом устройстве, чтобы привязать свой телефон.",
+        "message": "Обновите Peepline на этом устройстве, чтобы привязать свой телефон.",
         "description": ""
     },
     "installErrorHeader": {
@@ -1550,7 +1550,7 @@
         }
     },
     "calling__pre-call-info--will-ring-1": {
-        "message": "Signal будет звонить у $person$",
+        "message": "Peepline будет звонить у $person$",
         "description": "Shown in the calling lobby to describe who will be rung",
         "placeholders": {
             "person": {
@@ -1560,7 +1560,7 @@
         }
     },
     "calling__pre-call-info--will-ring-2": {
-        "message": "Signal будет звонить у $first$ и $second$",
+        "message": "Peepline будет звонить у $first$ и $second$",
         "description": "Shown in the calling lobby to describe who will be rang",
         "placeholders": {
             "first": {
@@ -1574,7 +1574,7 @@
         }
     },
     "calling__pre-call-info--will-ring-3": {
-        "message": "Signal будет звонить у $first$, $second$ и $third$",
+        "message": "Peepline будет звонить у $first$, $second$ и $third$",
         "description": "Shown in the calling lobby to describe who will be rang",
         "placeholders": {
             "first": {
@@ -1592,7 +1592,7 @@
         }
     },
     "calling__pre-call-info--will-ring-many": {
-        "message": "Signal будет звонить у $first$, $second$ и еще $others$ человек",
+        "message": "Peepline будет звонить у $first$, $second$ и еще $others$ человек",
         "description": "Shown in the calling lobby to describe who will be rang",
         "placeholders": {
             "person": {
@@ -1718,7 +1718,7 @@
         "description": "Body text for the share screen notification"
     },
     "calling__presenting--info": {
-        "message": "Signal показывает $window$.",
+        "message": "Peepline показывает $window$.",
         "description": "Text that appears in the screen sharing controller to inform person that they are presenting",
         "placeholders": {
             "name": {
@@ -1760,7 +1760,7 @@
         "description": "Shown as the title for the modal that requests screen recording permissions"
     },
     "calling__presenting--macos-permission-description": {
-        "message": "Signal необходимо разрешение, чтобы получить доступ к записи вашего экрана.",
+        "message": "Peepline необходимо разрешение, чтобы получить доступ к записи вашего экрана.",
         "description": "Shown as the description for the modal that requests screen recording permissions"
     },
     "calling__presenting--permission-instruction-step1": {
@@ -1772,7 +1772,7 @@
         "description": "Shown as the description for the modal that requests screen recording permissions"
     },
     "calling__presenting--permission-instruction-step3": {
-        "message": "Справа поставьте флажок рядом с Signal. Если вы не видите Signal в списке, нажмите «+», чтобы добавить его.",
+        "message": "Справа поставьте флажок рядом с Peepline. Если вы не видите Peepline в списке, нажмите «+», чтобы добавить его.",
         "description": "Shown as the description for the modal that requests screen recording permissions"
     },
     "calling__presenting--permission-open": {
@@ -1788,7 +1788,7 @@
         "description": "Description of the always relay calls setting"
     },
     "alwaysRelayCallsDetail": {
-        "message": "Пропускать все звонки через сервер Signal, чтобы не раскрывать ваш IP-адрес собеседнику. Качество звонка ухудшится.",
+        "message": "Пропускать все звонки через сервер Peepline, чтобы не раскрывать ваш IP-адрес собеседнику. Качество звонка ухудшится.",
         "description": "Details describing the always relay calls setting"
     },
     "permissions": {
@@ -1812,12 +1812,12 @@
         "description": "Description of the spell check setting"
     },
     "spellCheckWillBeEnabled": {
-        "message": "Проверка правописания будет включена, когда Signal запустится в следующий раз.",
-        "description": "Shown when the user enables spellcheck to indicate that they must restart Signal."
+        "message": "Проверка правописания будет включена, когда Peepline запустится в следующий раз.",
+        "description": "Shown when the user enables spellcheck to indicate that they must restart Peepline."
     },
     "spellCheckWillBeDisabled": {
-        "message": "Проверка правописания будет выключена, когда Signal запустится в следующий раз.",
-        "description": "Shown when the user disables spellcheck to indicate that they must restart Signal."
+        "message": "Проверка правописания будет выключена, когда Peepline запустится в следующий раз.",
+        "description": "Shown when the user disables spellcheck to indicate that they must restart Peepline."
     },
     "SystemTraySetting__minimize-to-system-tray": {
         "message": "Сворачивать в системный трей",
@@ -1860,8 +1860,8 @@
         "description": "Message shown to user when app is disconnected and data deleted"
     },
     "deleteOldIndexedDBData": {
-        "message": "У вас есть устаревшие данные из предыдущей установки Signal Desktop. Если вы решите продолжить, они будут удалены, и вы начнете с нуля.",
-        "description": "Shown if user last ran Signal Desktop before October 2018"
+        "message": "У вас есть устаревшие данные из предыдущей установки Peepline Desktop. Если вы решите продолжить, они будут удалены, и вы начнете с нуля.",
+        "description": "Shown if user last ran Peepline Desktop before October 2018"
     },
     "deleteOldData": {
         "message": "Удалить старые данные",
@@ -1966,7 +1966,7 @@
         "description": "Text that links to a support article on verifying safety numbers"
     },
     "expiredWarning": {
-        "message": "Эта версия Signal Desktop устарела. Пожалуйста, выполните обновление до последней версии, чтобы продолжить обмен сообщениями.",
+        "message": "Эта версия Peepline Desktop устарела. Пожалуйста, выполните обновление до последней версии, чтобы продолжить обмен сообщениями.",
         "description": "Warning notification that this version of the app has expired"
     },
     "upgrade": {
@@ -1986,7 +1986,7 @@
         "description": "Label for contact and group sync settings"
     },
     "syncExplanation": {
-        "message": "Импортировать все группы и контакты Signal с вашего мобильного устройства.",
+        "message": "Импортировать все группы и контакты Peepline с вашего мобильного устройства.",
         "description": "Explanatory text for sync settings"
     },
     "lastSynced": {
@@ -2279,10 +2279,10 @@
     },
     "Toast--failed-to-fetch-username": {
         "message": "Не удалось выполнить запрос по имени пользователя. Проверьте ваше подключение к интернету и попробуйте еще раз.",
-        "description": "Shown if request to Signal servers to find username fails"
+        "description": "Shown if request to Peepline servers to find username fails"
     },
     "startConversation--username-not-found": {
-        "message": "Пользователь не найден. $atUsername$ — не пользователь Signal; убедитесь, что вы ввели полное имя пользователя.",
+        "message": "Пользователь не найден. $atUsername$ — не пользователь Peepline; убедитесь, что вы ввели полное имя пользователя.",
         "description": "Shown in dialog if username is not found. Note that 'username' will be the output of at-username",
         "placeholders": {
             "atUsername": {
@@ -2312,7 +2312,7 @@
         "description": "Shown in the alert when you add the maximum number of group members"
     },
     "chooseGroupMembers__maximum-group-size__body": {
-        "message": "В группах Signal могут находиться максимум $max$ участников.",
+        "message": "В группах Peepline могут находиться максимум $max$ участников.",
         "description": "Shown in the alert when you add the maximum number of group members",
         "placeholders": {
             "max": {
@@ -2326,7 +2326,7 @@
         "description": "Shown in the alert when you add the maximum recommended number of group members"
     },
     "chooseGroupMembers__maximum-recommended-group-size__body": {
-        "message": "Группы Signal работают лучше всего с $max$ участниками или меньше. Добавление большего количества участников приведет к задержкам при отправке и получении сообщений.",
+        "message": "Группы Peepline работают лучше всего с $max$ участниками или меньше. Добавление большего количества участников приведет к задержкам при отправке и получении сообщений.",
         "description": "Shown in the alert when you add the maximum recommended number of group members",
         "placeholders": {
             "max": {
@@ -2340,7 +2340,7 @@
         "description": "Shown in the alert when you try to add someone who can't be added to a group"
     },
     "chooseGroupMembers__cant-add-member__body": {
-        "message": "«$name$» не может быть добавлен(-а) в группу, так как он(-а) использует старую версию Signal. Вы сможете добавить этого человека в группу после того, как он обновит Signal.",
+        "message": "«$name$» не может быть добавлен(-а) в группу, так как он(-а) использует старую версию Peepline. Вы сможете добавить этого человека в группу после того, как он обновит Peepline.",
         "description": "Shown in the alert when you try to add someone who can't be added to a group",
         "placeholders": {
             "max": {
@@ -2398,7 +2398,7 @@
         "description": "When a person inputs a number that is invalid"
     },
     "unlinkedWarning": {
-        "message": "Нажмите, чтобы повторно привязать Signal Desktop к своему мобильному устройству для продолжения обмена сообщениями.",
+        "message": "Нажмите, чтобы повторно привязать Peepline Desktop к своему мобильному устройству для продолжения обмена сообщениями.",
         "description": ""
     },
     "unlinked": {
@@ -2414,7 +2414,7 @@
         "description": ""
     },
     "autoUpdateNewVersionMessage": {
-        "message": "Нажмите, чтобы перезапустить Signal",
+        "message": "Нажмите, чтобы перезапустить Peepline",
         "description": ""
     },
     "downloadNewVersionMessage": {
@@ -2422,11 +2422,11 @@
         "description": ""
     },
     "autoUpdateNewVersionInstructions": {
-        "message": "Для применения обновлений нажмите «Перезапустить Signal».",
+        "message": "Для применения обновлений нажмите «Перезапустить Peepline».",
         "description": ""
     },
     "autoUpdateRestartButtonLabel": {
-        "message": "Перезапустить Signal",
+        "message": "Перезапустить Peepline",
         "description": ""
     },
     "autoUpdateLaterButtonLabel": {
@@ -2624,11 +2624,11 @@
         "description": "Shown in the sticker pack manager when you don't have any installed sticker packs."
     },
     "stickers--StickerManager--BlessedPacks": {
-        "message": "Серия художников Signal",
+        "message": "Серия художников Peepline",
         "description": "Shown in the sticker pack manager above the default sticker packs."
     },
     "stickers--StickerManager--BlessedPacks--Empty": {
-        "message": "Нет доступных стикеров от художников Signal",
+        "message": "Нет доступных стикеров от художников Peepline",
         "description": "Shown in the sticker pack manager when there are no blessed sticker packs available."
     },
     "stickers--StickerManager--ReceivedPacks": {
@@ -2653,15 +2653,15 @@
     },
     "stickers--StickerManager--Introduction--Image": {
         "message": "Представляем стикеры: Bandit the Cat (Кот-бандит)",
-        "description": "Alt text on a tooltip image when the user upgrades to a version of Signal supporting stickers."
+        "description": "Alt text on a tooltip image when the user upgrades to a version of Peepline supporting stickers."
     },
     "stickers--StickerManager--Introduction--Title": {
         "message": "Представляем стикеры",
-        "description": "Shown as the title on a tooltip when the user upgrades to a version of Signal supporting stickers."
+        "description": "Shown as the title on a tooltip when the user upgrades to a version of Peepline supporting stickers."
     },
     "stickers--StickerManager--Introduction--Body": {
         "message": "Зачем использовать слова, когда можно использовать стикеры?",
-        "description": "Shown as the body on a tooltip when the user upgrades to a version of Signal supporting stickers."
+        "description": "Shown as the body on a tooltip when the user upgrades to a version of Peepline supporting stickers."
     },
     "stickers--StickerPicker--Open": {
         "message": "Открыть панель стикеров",
@@ -2778,7 +2778,7 @@
         "description": "When a message is too long this is the affordance to expand the message"
     },
     "Message--unsupported-message": {
-        "message": "$contact$ отправил(-a) вам сообщение, которое не может быть обработано или отображено, поскольку оно использует новую функцию Signal.",
+        "message": "$contact$ отправил(-a) вам сообщение, которое не может быть обработано или отображено, поскольку оно использует новую функцию Peepline.",
         "description": "",
         "placeholders": {
             "contact": {
@@ -2788,7 +2788,7 @@
         }
     },
     "Message--unsupported-message-ask-to-resend": {
-        "message": "Вы можете попросить $contact$ повторно отправить это сообщение, так как теперь вы используете актуальную версию Signal.",
+        "message": "Вы можете попросить $contact$ повторно отправить это сообщение, так как теперь вы используете актуальную версию Peepline.",
         "description": "",
         "placeholders": {
             "contact": {
@@ -2798,16 +2798,16 @@
         }
     },
     "Message--from-me-unsupported-message": {
-        "message": "Одно из ваших устройств отправило сообщение, которое не может быть обработано или отображено, поскольку оно использует новую функцию Signal.",
+        "message": "Одно из ваших устройств отправило сообщение, которое не может быть обработано или отображено, поскольку оно использует новую функцию Peepline.",
         "description": ""
     },
     "Message--from-me-unsupported-message-ask-to-resend": {
-        "message": "Будущие сообщения, подобные этому, будут синхронизироваться, так как теперь вы используете актуальную версию Signal.",
+        "message": "Будущие сообщения, подобные этому, будут синхронизироваться, так как теперь вы используете актуальную версию Peepline.",
         "description": ""
     },
     "Message--update-signal": {
-        "message": "Обновить Signal",
-        "description": "Text for a button which will take user to Signal download page"
+        "message": "Обновить Peepline",
+        "description": "Text for a button which will take user to Peepline download page"
     },
     "Message--tap-to-view-expired": {
         "message": "Просмотрено",
@@ -3232,7 +3232,7 @@
         "description": "Text for the create another sticker pack button on the share stage of the sticker creator"
     },
     "StickerCreator--ShareStage--socialMessage": {
-        "message": "Посмотрите на этот новый набор стикеров, который я создал для Signal. #makeprivacystick",
+        "message": "Посмотрите на этот новый набор стикеров, который я создал для Peepline. #makeprivacystick",
         "description": "Text which is shared to social media platforms for sticker packs"
     },
     "StickerCreator--Toasts--imagesAdded": {
@@ -3296,7 +3296,7 @@
         "description": "Text for the sticker preview for the dark theme"
     },
     "StickerCreator--Authentication--error": {
-        "message": "Пожалуйста, настройте Signal на вашем телефоне и ПК, чтобы использовать редактор наборов стикеров",
+        "message": "Пожалуйста, настройте Peepline на вашем телефоне и ПК, чтобы использовать редактор наборов стикеров",
         "description": "The error message which appears when the user has not linked their account and attempts to use the Sticker Creator"
     },
     "Reactions--remove": {
@@ -3768,7 +3768,7 @@
         "description": "Shown in the call screen when the call is reconnecting due to network issues"
     },
     "callDuration": {
-        "message": "Signal $duration$",
+        "message": "Peepline $duration$",
         "description": "Shown in the call screen to indicate how long the call has been connected",
         "placeholders": {
             "duration": {
@@ -3956,7 +3956,7 @@
         "description": "Button to dismiss popup dialog when user-initiated task has gone wrong"
     },
     "unknown-sgnl-link": {
-        "message": "Извините, эта ссылка sgnl:// в данный момент не поддерживается Signal Desktop.",
+        "message": "Извините, эта ссылка sgnl:// в данный момент не поддерживается Peepline Desktop.",
         "description": "Shown if you click on a sgnl:// link not currently supported by Desktop"
     },
     "GroupV2--cannot-send": {
@@ -3964,7 +3964,7 @@
         "description": "Shown in toast when you attempt to forward a message to an announcement only group"
     },
     "GroupV2--add--missing-capability": {
-        "message": "Эти люди не могут быть добавлены в группу, пока они не обновят Signal.",
+        "message": "Эти люди не могут быть добавлены в группу, пока они не обновят Peepline.",
         "description": "Shown in a confirmation dialog when members who cannot view announcement only group cannot be added"
     },
     "GroupV2--cannot-start-group-call": {
@@ -3996,7 +3996,7 @@
         "description": "This group link is no longer valid."
     },
     "GroupV2--join--unknown-link-version": {
-        "message": "Эта ссылка не поддерживается этой версией Signal Desktop.",
+        "message": "Эта ссылка не поддерживается этой версией Peepline Desktop.",
         "description": "Shown if you click a group link and we can't get information about it"
     },
     "GroupV2--join--link-revoked--title": {
@@ -5320,11 +5320,11 @@
         "description": "In the instructions for becoming a sustainer. The heading."
     },
     "BadgeSustainerInstructions__subheader": {
-        "message": "Signal существует благодаря таким людям, как вы. Поддержите нас и получите значок.",
+        "message": "Peepline существует благодаря таким людям, как вы. Поддержите нас и получите значок.",
         "description": "In the instructions for becoming a sustainer. The subheading."
     },
     "BadgeSustainerInstructions__instructions__1": {
-        "message": "Откройте Signal на своем телефоне",
+        "message": "Откройте Peepline на своем телефоне",
         "description": "In the instructions for becoming a sustainer. First instruction."
     },
     "BadgeSustainerInstructions__instructions__2": {
@@ -5344,15 +5344,15 @@
         "description": "Aria label for file attachment button in composition area"
     },
     "CompositionArea--sms-only__title": {
-        "message": "Этот человек не использует Signal",
+        "message": "Этот человек не использует Peepline",
         "description": "Title for the composition area for the SMS-only contact"
     },
     "CompositionArea--sms-only__body": {
-        "message": "Signal Desktop не поддерживает общение с контактами, у которых нет Signal. Попросите этого человека установить Signal для более безопасного общения.",
+        "message": "Peepline Desktop не поддерживает общение с контактами, у которых нет Peepline. Попросите этого человека установить Peepline для более безопасного общения.",
         "description": "Body for the composition area for the SMS-only contact"
     },
     "CompositionArea--sms-only__spinner-label": {
-        "message": "Проверяем, зарегистрирован ли контакт в Signal",
+        "message": "Проверяем, зарегистрирован ли контакт в Peepline",
         "description": "Displayed while checking if the contact is SMS-only"
     },
     "countMutedConversationsDescription": {
@@ -5897,10 +5897,10 @@
     },
     "MessageRequestWarning__dialog__learn-even-more": {
         "message": "О запросах на общение",
-        "description": "Shown in the message request warning dialog. Clicking this button will open a page on Signal's support site"
+        "description": "Shown in the message request warning dialog. Clicking this button will open a page on Peepline's support site"
     },
     "ContactSpoofing__same-name": {
-        "message": "Внимательно проверяйте запросы. Signal нашел другого контакта с тем же именем. $link$",
+        "message": "Внимательно проверяйте запросы. Peepline нашел другого контакта с тем же именем. $link$",
         "description": "Shown in the timeline warning when you have a message request from someone with the same name as someone else",
         "placeholders": {
             "link": {
@@ -5992,7 +5992,7 @@
         "description": "Header in the captcha dialog"
     },
     "CaptchaDialog__first-paragraph": {
-        "message": "Чтобы помочь предотвратить спам в Signal, пожалуйста, пройдите проверку.",
+        "message": "Чтобы помочь предотвратить спам в Peepline, пожалуйста, пройдите проверку.",
         "description": "First paragraph in the captcha dialog"
     },
     "CaptchaDialog__second-paragraph": {
@@ -6252,7 +6252,7 @@
         "description": "Placeholder for the username field"
     },
     "ProfileEditor--username--helper": {
-        "message": "Имена пользователей в Signal необязательны. Если вы решите создать имя пользователя, другие пользователи Signal смогут найти вас по этому имени пользователя и связаться с вами, не зная ваш номер телефона.",
+        "message": "Имена пользователей в Peepline необязательны. Если вы решите создать имя пользователя, другие пользователи Peepline смогут найти вас по этому имени пользователя и связаться с вами, не зная ваш номер телефона.",
         "description": "Shown on the edit username screen"
     },
     "ProfileEditor--username--check-characters": {
@@ -6462,7 +6462,7 @@
         "description": "Title for the generate link previews setting"
     },
     "Preferences__link-previews--description": {
-        "message": "Чтобы изменить эту настройку, откройте приложение Signal на своем мобильном устройстве и перейдите в Настройки > Чаты",
+        "message": "Чтобы изменить эту настройку, откройте приложение Peepline на своем мобильном устройстве и перейдите в Настройки > Чаты",
         "description": "Description for the generate link previews setting"
     },
     "Preferences--advanced": {
@@ -6502,7 +6502,7 @@
         "description": "Title for the 'who can do X' setting"
     },
     "Preferences__privacy--description": {
-        "message": "Чтобы изменить эти настройки, откройте приложение Signal на своем мобильном устройстве и перейдите в Настройки > Конфиденциальность",
+        "message": "Чтобы изменить эти настройки, откройте приложение Peepline на своем мобильном устройстве и перейдите в Настройки > Конфиденциальность",
         "description": "Description for the 'who can do X' setting"
     },
     "Preferences__who-can--everybody": {
@@ -6564,7 +6564,7 @@
         }
     },
     "NSIS__retry-dialog--first-line": {
-        "message": "Не удалось закрыть Signal.",
+        "message": "Не удалось закрыть Peepline.",
         "description": "First line of the dialog displayed when Windows installer can't close application automatically and needs user intervention to complete the installation."
     },
     "NSIS__retry-dialog--second-line": {
