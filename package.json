@@ -337,7 +337,7 @@
       "signingHashAlgorithms": [
         "sha256"
       ],
-      "publisherName": "Signal Messenger, LLC",
+      "publisherName": "Eik Consulting",
       "icon": "build/icons/win/icon.ico",
       "publish": [
         {
